@@ -59,6 +59,7 @@
 
     {{-- Vite Assets (Laravel 11 Default) --}}
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+<base href="{{ url('/') }}/">
 
     {{-- Livewire Styles --}}
     @livewireStyles
