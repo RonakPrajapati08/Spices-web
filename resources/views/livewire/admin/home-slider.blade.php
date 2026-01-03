@@ -71,7 +71,7 @@
                                         <span
                                             class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">New</span>
                                     @elseif($existingImage)
-                                        <img src="{{ asset('storage/sliders' . $existingImage) }}"
+                                        <img src="{{ asset('storage/sliders/' . $existingImage) }}"
                                             class="rounded shadow-sm border"
                                             style="width: 150px; height: 80px; object-fit: cover;">
                                     @else
@@ -111,7 +111,7 @@
                                     <td class="ps-4">
                                         <div class="rounded-3 shadow-sm overflow-hidden"
                                             style="width: 140px; height: 70px;">
-                                            <img src="{{ asset('storage/sliders' . $slider->image) }}" class="w-100 h-100"
+                                            <img src="{{ asset('storage/sliders/' . $slider->image) }}" class="w-100 h-100"
                                                 style="object-fit: cover;">
                                         </div>
                                     </td>
