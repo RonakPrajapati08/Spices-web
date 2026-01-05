@@ -34,7 +34,9 @@
                 <!-- Brand Column -->
                 <div class="col-lg-4">
                     <a href="#" class="footer-brand">
-                        <span class="brand-v">V</span>imal <span>Agro</span>
+                        {{-- <span class="brand-v">V</span>imal <span>Agro</span> --}}
+                        <img class="rounded-3" src="{{ asset('assest/images/DESIGN.png') }}" alt=""
+                            style="width: 100%; max-width: 200px;">
                     </a>
                     <p class="brand-text mt-3">
                         Empowering farmers with high-quality agro-solutions. We blend technology with tradition to

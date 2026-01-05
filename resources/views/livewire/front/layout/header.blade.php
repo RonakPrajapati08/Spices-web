@@ -2,7 +2,11 @@
 
     <i class="bi bi-list mobile-nav-toggle d-lg-none bg-black text-white"></i>
 
-    <header id="header" class="d-flex flex-column justify-content-center">
+    <header id="header" class="d-flex flex-column justify-content-center gap-4">
+        <a href="#" class="footer-brand d-lg-none">
+            <img class="rounded-3" src="{{ asset('assest/images/DESIGN.png') }}" alt=""
+                style="width: 100%; max-width: 200px;">
+        </a>
         <nav id="navbar" class="navbar nav-menu">
             <ul>
                 <li>
